@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .cart-style {
+    @apply flex flex-col md:flex-row p-2 md:p-4 items-center gap-6 border border-[#DDE2E5] mt-4 transition-all duration-300 cursor-pointer hover:scale-105 hover:bg-gray-100 dark:hover:bg-gray-950;
+  }
+  .cart-heading {
+    @apply text-[#333333] text-xl md:text-2xl font-bold pt-4 md:pt-8;
+  }
+
+  .cart-h2 {
+    @apply text-[#333333] pb-2 font-semibold md:text-lg dark:text-white;
+  }
+  .cart-para {
+    @apply text-[#616161] text-sm md:text-base dark:text-gray-200;
+  }
+  .tag-name {
+    @apply bg-black text-white text-xs uppercase px-1.5 py-0.5 rounded-sm;
+  }
+  .tag-name-2 {
+    @apply bg-[#5677AC26] text-xs md:text-sm px-1.5 py-0.5 rounded-sm uppercase hover:bg-black hover:text-white transition-all cursor-pointer dark:bg-slate-400 dark:hover:bg-[#5677AC];
+  }
+
+  .news-link {
+    @apply inline-block bg-[#E6EBF3] text-center font-medium md:text-lg rounded-full w-full py-2 md:py-4 transition-all duration-300 hover:bg-slate-400 hover:scale-105;
+  }
+}

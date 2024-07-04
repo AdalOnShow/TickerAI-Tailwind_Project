@@ -304,17 +304,20 @@
       <!-- Images Garally -->
       <div class="pt-4 cursor-pointer">
         <img src="./imgs/Featured-1.png" alt="" class="w-full object-cover">
-        <h2 class="font-bold md:font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non deserunt ullamco est
+        <h2 class="font-bold md:font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non
+          deserunt ullamco est
           sit aliqua dolor do amet sint.</h2>
       </div>
       <div class="pt-4 cursor-pointer">
         <img src="./imgs/Featured-2.png" alt="" class="w-full object-cover">
-        <h2 class="font-bold md:font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non deserunt ullamco est
+        <h2 class="font-bold md:font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non
+          deserunt ullamco est
           sit aliqua dolor do amet sint.</h2>
       </div>
       <div class="pt-4 cursor-pointer">
         <img src="./imgs/Featured-3.png" alt="" class="w-full object-cover">
-        <h2 class="font-bold md:font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non deserunt ullamco est
+        <h2 class="font-bold md:font-medium text-[#121212] p-4 text-center dark:text-white">Amet minim mollit non
+          deserunt ullamco est
           sit aliqua dolor do amet sint.</h2>
       </div>
     </section>
@@ -324,7 +327,14 @@
     All right reserved to TickerAi - 2024
   </footer>
 
-  <script src="./script.js"></script>
+  <script>
+    const darkClass = document.getElementById("darkClass");
+    const button = document.getElementById("button");
+
+    button.addEventListener("click", function () {
+      darkClass.classList.toggle("dark");
+    });
+  </script>
 </body>
 
 </html>
